@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["env", {
+      "production": {
+        "targets": {
+          "browsers": [ ">0.25%"],
+          "node": "6.10"
+        }
+      },
+      "test": {
+        "targets": {
+          "node": "6.10"
+        }
+      }
+    }],
+    "@babel/preset-typescript"
+  ]
+}
